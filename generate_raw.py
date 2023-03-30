@@ -80,7 +80,7 @@ def generate_games():
     return games
 
 def generate_tags():
-    conn = sqlite3.connect('flashpoint.sqlite')
+    conn = sqlite3.connect(sys.argv[1])
     c = conn.cursor()
 
     query = """
@@ -105,7 +105,7 @@ def generate_tags():
     return tags
 
 def generate_platforms():
-    conn = sqlite3.connect('flashpoint.sqlite')
+    conn = sqlite3.connect(sys.argv[1])
     c = conn.cursor()
 
     query = """

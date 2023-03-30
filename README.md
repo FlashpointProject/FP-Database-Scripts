@@ -2,6 +2,16 @@
 
 ## Usage
 
+## Copy Assets
+
+Setup
+
+`python -m pip install tqdm`
+
+Copies the assets for any game in the database from the data path to the dest path
+
+`python ./asset_copy.py <database_file> <data_path> <dest_path>`
+
 ### Stripping Database By Tags
 
 Place db at `flashpoint.sqlite`, will output to `stripped.sqlite`
