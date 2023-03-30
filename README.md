@@ -27,4 +27,5 @@ You can provide extra data inside `extra_data.json`, this accepts the gameDataSo
       ]
     }
   ]
-}```
+}
+```
